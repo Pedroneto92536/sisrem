@@ -1,0 +1,81 @@
+/* Reset de estilos para garantir uma base consistente */
+body, h2, form, label, input {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o corpo da página */
+body {
+    background-color: #C2C2C1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Estilos para o formulário */
+form {
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+}
+
+/* Estilos para o cabeçalho */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif; /* Fonte mais apresentável para o h2 */
+    font-weight: 700; /* Fonte em negrito */
+}
+
+/* Estilos para as labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    background-color: #fff;
+    padding: 5px;
+    font-family: 'Sytem-ui';  /* Fonte para as labels */
+}
+
+/* Estilos para as inputs */
+input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-family: 'Sytem-ui'; /* Fonte personalizada */
+    font-size: 18px; /* Tamanho da fonte personalizada */
+}
+
+/* Estilos para o botão */
+input[type="submit"] {
+    background-color: #FFCC29;
+    color: #282829;
+    cursor: pointer;
+    font-size: 18px; /* Tamanho do botão reduzido para 14 pixels */
+
+}
+
+input[type="submit"]:hover {
+    background-color: #282829;
+    color: #FAFAFA;
+}
+/* Estilos para o cabeçalho */
+h2 {
+    display: flex;
+    align-items: center; /* Centralizar verticalmente a imagem e o texto */
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+/* Estilos para a imagem no cabeçalho */
+h2 img {
+    margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+}
+
